@@ -1,0 +1,104 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html, body
+{
+    height: 100%;
+    background-image: url("source.gif");
+}
+
+#header
+{
+    background-image: url("source1.gif");
+    height: 100px;
+    text-align: center;
+}
+
+#header h1
+{
+    padding: 14px 14px;
+    color: white;
+    text-decoration: none;
+}
+
+#menu
+{
+    overflow:hidden;
+    background-image: url("source1.gif");
+    font-size: 16pt;
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+
+#menu a
+{
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#menu a:hover
+{
+    text-decoration: none;
+    background-color: #05c6ed;
+}
+
+#content
+{
+    min-height: 75%;
+    padding-bottom: 75px;
+    padding-left: 5px;
+    overflow: auto;
+}
+
+#content h2
+{
+    text-decoration: underline;
+}
+
+.MrMeeseeks
+{
+    width: 300px;
+    height: 450px
+}
+
+#playbutton {
+  float: right;
+}
+
+.mortypics
+{
+    width: 325px;
+    height: 250px;
+}
+
+#rickmorty
+{
+    width: 80px;
+    height: 80px;
+    border: solid 3pt white;
+    margin: 10px;
+}
+
+.mediaLinks h3
+{
+    padding-top: 15px;
+}
+
+#footer
+{
+    background-image: url("source1.gif");
+    height: 50px;
+    width: 100%;
+    margin-top: -50px;
+    text-align: center;
+    position: relative;
+    color: white;
+}

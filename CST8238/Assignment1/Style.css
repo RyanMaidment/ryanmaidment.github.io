@@ -1,0 +1,124 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html, body
+{
+    height: 100%;
+}
+
+#header
+{
+    background-color: cadetblue;
+    height: 100px;
+    text-align: center;
+}
+
+#header h1
+{
+    padding: 14px 14px;
+    color: white;
+    text-decoration: none;
+}
+
+#menu
+{
+    overflow:hidden;
+    background-color: cadetblue;
+    font-size: 16pt;
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+
+#menu a
+{
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#menu a:hover
+{
+    text-decoration: none;
+    background-color: #05c6ed;
+}
+
+.content
+{
+    max-width: 950px;
+    min-height: 75%;
+    margin: auto;
+    padding-bottom: 75px;
+    padding-left: 5px;
+}
+
+.content h1, h2, h3
+{
+    padding-top: 5px;
+}
+
+.list
+{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    padding-left: 170px;
+}
+
+.tourism table, th, td
+{
+    border: 3px solid black;
+    text-align: center;
+    border-collapse: collapse
+}
+
+.travel table, th, td
+{
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+#footer
+{
+    background-color: cadetblue;
+    height: 50px;
+    width: 100%;
+    margin-top: -50px;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+
+#content1 ul{
+list-style: none;
+position: relative;
+}
+
+.hobby table, th, td
+{
+    border: 3px solid black;
+    text-align: center;
+    border-collapse: collapse
+}
+
+.travel table, th, td
+{
+    border: 3px solid black;
+    text-align: center;
+    border-collapse: collapse
+}
+
+.content p {
+    font-size: 18px;
+}
+
+.content ol {
+    font-size: 18px;
+}

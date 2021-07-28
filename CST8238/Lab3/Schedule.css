@@ -1,0 +1,152 @@
+body {
+
+}
+
+table {
+
+    }
+
+    th,
+    td {
+
+      width: 231px;
+      text-align: center;
+      font-size:12px;
+      border: 1px solid black;
+      height: 50px;
+      color: black;
+      display:inline-block;
+      margin-bottom: -2px;
+
+    }
+
+    th {
+
+    }
+
+    td {
+
+
+    }
+    .weekdays {
+      margin: 0;
+      padding: 7px 0;
+      background-color:#ddd;
+    }
+
+    .weekdays li {
+      display: inline-block;
+      width: 12.25%;
+      color: #666;
+      text-align: center;
+    }
+    .month {
+      padding: 12px 0px;
+      background: grey;
+      text-align: center;
+      color: black;
+      font-size: 20px;
+    }
+
+    .web span {
+      border: 1px solid red;
+      background-color: red;
+      width: 29.37;
+      height: 100;
+    }
+
+    .fifteen td:nth-child(3) {
+        background-color: red;
+    }
+
+    .sixteen td:nth-child(3) {
+      background-color: red;
+    }
+
+    .math span {
+      background-color: blue;
+    }
+
+    .fourteen td:nth-child(3) {
+      background-color: blue;
+    }
+
+    .fourteen td:nth-child(6) {
+      background-color: blue;
+    }
+
+    .fifteen td:nth-child(6) {
+      background-color: blue;
+    }
+
+    .java span {
+        background-color: green;
+    }
+
+    .seventeen td:nth-child(3) {
+      background-color: green;
+    }
+
+    .eighteen td:nth-child(3) {
+      background-color: green;
+    }
+
+    .seventeen td:nth-child(7) {
+      background-color: green;
+    }
+
+    .eighteen td:nth-child(7) {
+      background-color: green;
+    }
+
+    .comms span {
+      background-color: yellow;
+    }
+
+    .eight td:nth-child(4) {
+      background-color: yellow;
+    }
+
+    .nine td:nth-child(4) {
+      background-color: yellow;
+    }
+
+    .c span {
+      background: brown;
+    }
+
+    .ten td:nth-child(4) {
+      background: brown;
+    }
+
+    .eleven td:nth-child(4) {
+      background: brown;
+    }
+
+    .seventeen td:nth-child(5) {
+      background: brown;
+    }
+
+    .eighteen td:nth-child(5) {
+      background: brown;
+    }
+
+    .ProArch span {
+      background: pink;
+    }
+
+    .thirteen td:nth-child(4) {
+      background: pink;
+    }
+
+    .fourteen td:nth-child(4) {
+      background: pink;
+    }
+
+    .eight td:nth-child(6) {
+      background: pink;
+    }
+
+    .nine td:nth-child(6) {
+      background: pink;
+    }
