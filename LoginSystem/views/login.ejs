@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lexend+Deca">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <script src=" /js/scripts.js"></script>
+    <title>Login</title>
+</head>
+<body>
+<div class="header-container">
+</div>
+<div class="outer-form">
+    <form class="login-form" action="/users/login" method="POST">
+        <h1>Sign in</h1>
+        <p>Sign in and start managing your candidates!</p>
+        <%- include ("./partials/messages"); %>
+        <div class="username">
+            <input id="username" type="text" name="username" placeholder="Username" required>
+        </div>
+        <div class="password">
+            <input id="password" type="password" name="password" placeholder="Password" required>
+        </div>
+        <div class="remember-forgot">
+            <input id="remember" type="checkbox" name="remember">
+            <label id="rememberLabel" for="remember">Remember Me</label>
+            <a id="forgotPass" href="/users/register">Forgot Password?</a>
+        </div>
+        <div class="submit">
+            <input id="submit" type="submit" placeholder="Login" value="Login">
+        </div>
+    </form>
+</div>
+<div class="outer-bottom-container">
+    <div class="bottom-container">
+        <button class="toggleTheme" onclick="toggleTheme()"></button>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #093545;
+    font-family: "Lexend Deca", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: white;
+}
+
+.header-container {
+    padding: 75px;
+}
+
+.login-form h1 {
+    font-size: 64px;
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+.login-form p {
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+::placeholder {
+    color: white;
+    padding-left: 10px;
+}
+
+.login-form #email {
+    border-radius: 10px;
+    background: #224957;
+    height: 45px;
+    width: 100%;
+    font-size: 14px;
+}
+
+.login-form #username {
+    border-radius: 10px;
+    margin-top: 32px;
+    background: #224957;
+    height: 45px;
+    width: 100%;
+    font-size: 14px;
+}
+
+.login-form #password {
+    border-radius: 10px;
+    width: 100%;
+    height: 45px;
+    position: relative;
+    background: #224957;
+    font-size: 14px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.outer-form {
+    display: flex;
+    justify-content: center;
+}
+
+.login-form {
+    display: inline-block;
+}
+
+.login-form #remember, #rememberLabel {
+    border-radius: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 23px;
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.login-form #forgotPass {
+    color: #20DF7F;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    padding-bottom: 32px;
+
+}
+
+.login-form #submit {
+    background: #20DF7F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    width: 100%;
+    height: 45px;
+    align-content: center;
+    font-size: 16px;
+
+}
+
+.login-form #forgotPass, #remember {
+    margin-left: 32px;
+}
+
+.outer-bottom-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-container {
+    background-image: url("../images/bottom-decal.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 165px;
+    margin-top: auto;
+    width: 100%;
+    bottom: 0;
+    vertical-align: bottom;
+    position: absolute;
+}
+
+.login-form #password2 {
+    border-radius: 10px;
+    width: 100%;
+    height: 45px;
+    position: relative;
+    background: #224957;
+    font-size: 14px;
+    margin-bottom: 32px;
+}
+
+.button-group input {
+    background: #20DF7F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    width: 300px;
+    height: 45px;
+    margin-bottom: 40px;
+    align-content: center;
+    font-size: 16px;
+    display: block; /* Make the buttons appear below each other */
+}
+
+.button-group input:hover {
+    background-color: #18A75F;
+}
+
+.login-form #submit:hover {
+    background-color: #18A75F;
+}
+
+.toggleTheme {
+    background-image: url("../images/dark-mode.svg");
+    height: 45px;
+    width: 45px;
+}
