@@ -90,7 +90,7 @@
 
     //typed js
     $(".typed").typed({
-        strings: ["My Name is Ryan Maidment", "Computer Science Student", "Coffee Lover"],
+        strings: ["My Name is Ryan Maidment", "Computer Programming Graduate", "Coffee Lover"],
         typeSpeed: 100,
         backDelay: 900,
         // loop
@@ -99,7 +99,7 @@
 
     //owl carousel
     $('.owl-carousel').owlCarousel({
-      autoPlay: 3000, //Set AutoPlay to 3 seconds
+      autoPlay: 5000, //Set AutoPlay to 3 seconds
  
       items : 1,
       itemsDesktop : [1199,1],
@@ -135,15 +135,6 @@
         $(this).addClass('used');
       else
         $(this).removeClass('used');
-    });
-
-    //pop up porfolio
-    $('.portfolio-image li a').magnificPopup({
-      type: 'image',
-      gallery: {
-        enabled: true
-      }
-      // other options
     });
     
     //Skill
